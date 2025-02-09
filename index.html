@@ -4,15 +4,38 @@
 <head>
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>Page Title</title>
+    <title>Simple Page</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
     <script src='main.js'></script>
     <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            text-align: center;
+        }
+
         .header {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+
+        .header img {
+            width: 200px;
+        }
+
+        .header a {
+            display: block;
+            margin-top: 20px;
+            font-size: 1.2em;
+            color: #333;
+            text-decoration: none;
+        }
+
+        .header a:hover {
+            color: #ff6600;
         }
     </style>
 </head>
@@ -20,9 +43,8 @@
 <body>
     <div class="header">
         <img src="elimar_logo8.png" alt="ElimarSoft Logo">
-        <h1><a href="https://www.elimarsoft.com">ElimarSoft.com</a></h1>
+        <a href="https://www.elimarsoft.com">Visit ElimarSoft</a>
     </div>
-    <h2 id="mess1">ElimarSoft productivity tools</h2>
 </body>
 
 </html>
